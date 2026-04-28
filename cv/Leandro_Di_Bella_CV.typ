@@ -265,9 +265,9 @@
       "IEEE RA-L / ICRA (2025)",
     )
     #pub_item(
-      "DeepKalPose: An enhanced deep-learning Kalman filter for temporally consistent pose estimation",
-      "L. Di Bella, Y. Lyu, A. Munteanu",
-      "Electronics Letters (2024)",
+      "FlowS: One-Step Motion Prediction via Local Transport Conditioning",
+      "L. Di Bella, A. Munteanu, B. Cornelis",
+      "arXiv preprint (2026)",
     )
   ],
 
