@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(typst --version)",
+      "Bash(./cv/build_typst.sh)"
+    ]
+  }
+}
