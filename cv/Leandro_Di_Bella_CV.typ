@@ -3,11 +3,11 @@
 
 #set page(
   paper: "a4",
-  margin: (top: 12mm, bottom: 12mm, left: 12mm, right: 12mm),
+  margin: (top: 10mm, bottom: 10mm, left: 12mm, right: 12mm),
 )
 
 // Keep system font for portability
-#set text(size: 10.8pt)
+#set text(size: 10.1pt)
 #set par(leading: 0.62em, spacing: 0.22em)
 #set heading(numbering: none)
 #set list(marker: "•", indent: 12pt, spacing: 2.1pt)
@@ -19,7 +19,7 @@
 
 // ------------------ Blocks ------------------
 #let section(title) = [
-  #block(above: 16pt, below: 0pt)[
+  #block(above: 8pt, below: 0pt)[
     #grid(
       columns: (auto, 1fr),
       gutter: 8pt,
@@ -28,7 +28,7 @@
       [#line(length: 100%, stroke: (paint: accent, thickness: 1.1pt))],
     )
   ]
-  #v(8pt)
+  #v(6pt)
 ]
 
 // Small uppercase role line
@@ -87,7 +87,7 @@
       #body
     ],
   )
-  #v(8pt)
+  #v(5pt)
 ]
 
 // Education row
@@ -116,19 +116,18 @@
       ]
     ],
   )
-  #v(6pt)
+  #v(3pt)
 ]
 
 // Skills row (like reference)
 #let skill(label, items) = [
   #grid(
-    columns: (120pt, 1fr),
+    columns: (145pt, 1fr),
     gutter: 10pt,
     align: (right, left),
     [#text(weight: "bold")[#label]],
     [#text(fill: muted)[#items]],
   )
-  #v(2pt)
 ]
 
 // Publication item (compact)
@@ -138,7 +137,7 @@
   #text(size: 8.8pt, fill: muted)[#authors]
   #v(1pt)
   #text(size: 8.8pt, fill: muted, style: "italic")[#venue_line]
-  #v(5pt)
+  #v(3pt)
 ]
 
 // ------------------ HEADER (like reference) ------------------
@@ -153,7 +152,7 @@
     #align(center)[
       #text(size: 28pt, weight: "bold")[Leandro Di Bella]
       #v(3pt)
-      #caps_line("Software engineer – (3D) computer vision engineer – machine learning engineer")
+      #caps_line("Perception & Robotics Engineer | Physical AI for Autonomous Systems")
       #v(7pt)
 
       // Row 1 (3 items, like the sample)
@@ -199,17 +198,17 @@
 // ------------------ CONTENT ------------------
 #section("Summary")
 #text()[
-  PhD candidate looking for a full-time opportunity. Specialized in computer vision and AI for autonomous driving and autonomous navigation for drones, with expertise in detection, multi-object tracking, and vision-language models (VLMs). Currently working on multi-agent motion forecasting using flow-based generative AI for autonomous perception and modular sensor fusion for autonomous drones. Seeking to contribute to Europe's research and innovation ecosystem by advancing AI solutions for intelligent systems.
+  PhD candidate looking for a full-time opportunity. Specialized in robotics, physical AI, and computer vision for autonomous systems, with expertise in perception, detection, multi-object tracking, and vision-language models (VLMs). Currently technical lead on drone localization and navigation within the ORIGAMI (EDF) project, and working on multi-agent motion forecasting using flow-based generative AI. Experienced in deploying real-time perception on embedded platforms (Jetson, TensorRT, #box[C++]).
 ]
 
 #section("Experience")
 
 #exp_compact(
-  "VoxelSensors (research project)",
-  "Computer Vision Researcher",
+  "IMEC & VUB (ORIGAMI, EDF project)",
+  "Technical Lead, Robotics & Perception Researcher",
   "Brussels, Belgium",
   "Jan. 2026 – Present",
-  [Sensor fusion and localization for autonomous drone systems.],
+  [Technical lead for drone autonomy: architected and integrated the full drone platform (hardware, sensing, and autonomy software). Sensor fusion and localization in 3D environments; developing world-model-based methods for autonomous navigation.],
 )
 
 #exp_compact(
@@ -217,7 +216,7 @@
   "Computer Vision Researcher",
   "Brussels, Belgium",
   "Jan. 2023 – Jan. 2026",
-  [Detection, 3D multi-object tracking, scene understanding, and motion forecasting for autonomous vehicles using generative AI.],
+  [Detection, 3D multi-object tracking, scene understanding, and motion forecasting for autonomous vehicles using generative AI. Achieved \#1 on the KITTI MOT and Waymo motion forecasting benchmarks.],
 )
 
 #exp_compact(
@@ -240,13 +239,14 @@
   "Vrije Universiteit Brussel",
   "Teaching Assistant",
   "Brussels, Belgium",
-  "~2022 – 2025",
+  "2022 – 2025",
   [Teaching assistant for Machine Learning and Big Data Processing (2.5 years).],
 )
 
 #section("Education")
-#edu("ETRO, Vrije Universiteit Brussel (VUB)", "PhD in Engineering Sciences (AI & Computer Vision)", "Brussels, Belgium", "2023 – Present")
-#edu("Solvay Brussels School", "Advanced Master in Industrial & Technological Management", "Brussels, Belgium", "2025 – 2027 (ongoing)")
+#edu("ETRO, Vrije Universiteit Brussel (VUB)", "PhD in Engineering Sciences (AI, Computer Vision & Robotics)", "Brussels, Belgium", "2023 – Present")
+#edu("ICVSS 2026 (International Computer Vision Summer School)", "Summer school: Computer Vision for Spatial and Physical Intelligence", "Sicily, Italy", "2026")
+#edu("Solvay Brussels School", "Advanced Master in Industrial & Technological Management", "Brussels, Belgium", "2025 – Present")
 #edu("Bruface (ULB/VUB)", "M.Sc. Electrical Engineering (Information Technology Systems)", "Brussels, Belgium", "2020 – 2023")
 
 #section("Selected publications")
@@ -262,12 +262,12 @@
     #pub_item(
       "HybridTrack: A Hybrid Approach for Robust Multi-Object Tracking",
       "L. Di Bella, Y. Lyu, B. Cornelis, A. Munteanu",
-      "IEEE RA-L / ICRA (2025)",
+      "IEEE Robotics and Automation Letters (RA-L) / ICRA (2025). Ranked #1 on the KITTI MOT benchmark.",
     )
     #pub_item(
       "FlowS: One-Step Motion Prediction via Local Transport Conditioning",
       "L. Di Bella, A. Munteanu, B. Cornelis",
-      "arXiv preprint (2026)",
+      "IEEE Robotics and Automation Letters (RA-L), accepted (2026). Ranked #1 on the Waymo motion forecasting benchmark.",
     )
   ],
 
@@ -282,17 +282,22 @@
       "CVPR Workshops (2025)",
     )
     #pub_item(
-      "LAM3D: Leveraging Attention for Monocular 3D Object Detection",
-      "D.-A. Sas, L. Di Bella, Y. Lyu, F. Oniga, A. Munteanu",
-      "IEEE MMSP (2024)",
+      "Spectral-Aware Multi-Object Tracking in Harsh Aerial Perception Domains",
+      "L. Di Bella, J. Mimassi, L. Denis, A. Munteanu",
+      "IEEE ICRA 2026 Workshop S2S",
     )
   ],
 )
 
+#section("Research interests")
+#text()[
+  Perception for autonomous systems, world models for perception and navigation, localization in 3D environments, vision-language-action (VLA) models for robotics.
+]
+
 #section("Skills")
 #skill("Programming", "Python, C++, CUDA, PyTorch, TensorRT, ONNX, FastAPI, Flutter/Dart")
-#skill("ML / Perception", "Detection, instance segmentation, monocular 3D, 2D/3D tracking (MOT), Kalman filtering, temporal consistency")
+#skill("ML / Perception", "Detection, instance segmentation, monocular 3D, 2D/3D tracking (MOT), SLAM, Kalman filtering, temporal consistency")
 #skill("Vision-language & GenAI", "Grounding / referring tracking, multimodal reasoning, generative motion forecasting")
+#skill("Robotics", "ROS 2, SLAM, localization, motion planning, navigation, sensor fusion")
 #skill("Systems / Deployment", "Jetson, Docker, GitHub CI/CD, Azure cloud services, Firebase, PostgreSQL")
-#skill("Product", "Mapbox, backend ops, shipping & iteration")
 #skill("Academic service", "Reviewer: TIP, RA-L, ICRA, ICIP, IET")
