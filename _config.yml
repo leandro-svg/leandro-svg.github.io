@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Leandro Di Bella"
 title_separator          : "-"
 name                     : &name "Leandro Di Bella"
-description              : &description "Computer vision & generative AI for autonomous perception (detection, tracking, VLMs) in driving & drones."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Perception & robotics engineer: physical AI for autonomous systems — drone localization & navigation, world models, tracking, and vision-language-action."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://leandro-svg.github.io # GitHub Pages hostname
 baseurl                  : "" # User site (root) — must be empty so assets load from /assets/...
 repository               : "leandro-svg/leandro-svg.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile_picture.png"
   name             : "Leandro Di Bella"
   pronouns         : # example: "she/her"  
-  bio              : "Computer vision & generative AI for autonomous perception (detection, tracking, VLMs) in driving & drones."
+  bio              : "Perception & robotics engineer. Physical AI for autonomous systems: drone localization & navigation, world models, tracking, VLA."
   location         : "Brussels, Belgium"
-  employer         : "ETRO, VUB"
+  employer         : "ETRO, VUB & imec"
   uri              : "https://leandro-svg.github.io"
   email            : "leandro.dibella@gmail.com" 
   app              : "https://mappx.app"

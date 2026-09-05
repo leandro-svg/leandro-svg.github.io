@@ -4,7 +4,7 @@
     "email": "leandro.dibella@gmail.com",
     "phone": "",
     "website": "https://leandro-svg.github.io",
-    "summary": "PhD student at ETRO (VUB) focused on computer vision and AI for autonomous driving and drone navigation (detection, multi-object tracking, VLMs).",
+    "summary": "PhD candidate at ETRO (VUB) and imec, specialized in robotics, physical AI, and computer vision for autonomous systems. Technical lead on drone localization and navigation in a European Defence Fund (EDF) research project (ORIGAMI); also working on multi-agent motion forecasting with flow-based generative AI.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -47,6 +47,30 @@
   },
   "work": [
     {
+      "company": "IMEC & VUB — ORIGAMI (European Defence Fund project)",
+      "position": "Technical Lead, Robotics & Perception Researcher",
+      "website": "",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Technical lead for drone autonomy in an EDF research project.",
+      "highlights": [
+        "Architected and integrated the full drone platform (hardware, sensing, and autonomy software)",
+        "Sensor fusion and localization in 3D environments; world-model-based methods for autonomous navigation"
+      ]
+    },
+    {
+      "company": "MACQ Mobility (research project)",
+      "position": "Computer Vision Researcher",
+      "website": "",
+      "startDate": "2023-01-01",
+      "endDate": "2026-01-01",
+      "summary": "Perception for autonomous vehicles.",
+      "highlights": [
+        "Detection, 3D multi-object tracking, scene understanding, and motion forecasting using generative AI",
+        "Achieved #1 on the KITTI MOT and Waymo motion forecasting benchmarks"
+      ]
+    },
+    {
       "company": "Mappx",
       "position": "Founder",
       "website": "https://mappx.app",
@@ -65,7 +89,9 @@
       "startDate": "2022-08-01",
       "endDate": "2022-10-01",
       "summary": "Developed and integrated instance segmentation on a Jetson TX2 edge device.",
-      "highlights": ["Python / C++"]
+      "highlights": [
+        "Python / C++"
+      ]
     }
   ],
   "education": [
@@ -74,13 +100,22 @@
       "area": "Industrial and Technological Management",
       "studyType": "Advanced Master",
       "startDate": "2025-01-01",
-      "endDate": "2027-01-01",
+      "endDate": "",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "ICVSS — International Computer Vision Summer School (Sicily, Italy)",
+      "area": "Computer Vision for Spatial and Physical Intelligence",
+      "studyType": "Summer School",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-01",
       "gpa": null,
       "courses": []
     },
     {
       "institution": "Vrije Universiteit Brussel (VUB)",
-      "area": "Engineering Sciences (Artificial Intelligence & Computer Vision)",
+      "area": "Engineering Sciences (AI, Computer Vision & Robotics)",
       "studyType": "PhD",
       "startDate": "2023-01-01",
       "endDate": "",
@@ -110,49 +145,147 @@
     {
       "name": "Programming",
       "level": "",
-      "keywords": ["Python", "Flutter", "FastAPI", "PyTorch", "C++", "CUDA", "TensorRT"]
+      "keywords": [
+        "Python",
+        "C++",
+        "CUDA",
+        "PyTorch",
+        "TensorRT",
+        "ONNX",
+        "FastAPI",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "level": "",
+      "keywords": [
+        "ROS 2",
+        "SLAM",
+        "Localization",
+        "Motion planning",
+        "Navigation",
+        "Sensor fusion"
+      ]
+    },
+    {
+      "name": "ML / Perception",
+      "level": "",
+      "keywords": [
+        "Detection",
+        "Instance segmentation",
+        "Monocular 3D",
+        "2D/3D multi-object tracking",
+        "Kalman filtering",
+        "Temporal consistency"
+      ]
+    },
+    {
+      "name": "Vision-language & GenAI",
+      "level": "",
+      "keywords": [
+        "Grounding / referring tracking",
+        "Multimodal reasoning",
+        "Generative motion forecasting"
+      ]
     },
     {
       "name": "Tools/Platforms",
       "level": "",
-      "keywords": ["VS Code", "Azure Cloud Services", "Docker", "Firebase", "GitHub CI/CD"]
+      "keywords": [
+        "Jetson",
+        "Docker",
+        "Azure Cloud Services",
+        "Firebase",
+        "GitHub CI/CD"
+      ]
     }
   ],
   "languages": [
-    {"language": "French", "fluency": "Native"},
-    {"language": "English", "fluency": "C1"},
-    {"language": "Dutch", "fluency": "B1"}
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "B1"
+    }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Perception for autonomous systems"
+    },
+    {
+      "name": "World models for perception and navigation"
+    },
+    {
+      "name": "Localization in 3D environments"
+    },
+    {
+      "name": "Vision-language-action (VLA) models for robotics"
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "FlowS: One-Step Motion Prediction via Local Transport Conditioning",
+      "publisher": "IEEE Robotics and Automation Letters (RA-L), accepted",
+      "releaseDate": "2026-08-01",
+      "website": "",
+      "summary": "One-step multi-agent motion prediction; ranked #1 on the Waymo motion forecasting benchmark."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Spectral-Aware Multi-Object Tracking in Harsh Aerial Perception Domains",
+      "publisher": "IEEE ICRA 2026 Workshop S2S",
+      "releaseDate": "2026-05-30",
+      "website": "",
+      "summary": "Multi-object tracking with multispectral cues for robust aerial perception."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "HybridTrack: A Hybrid Approach for Robust Multi-Object Tracking",
+      "publisher": "IEEE Robotics and Automation Letters (RA-L) / ICRA",
+      "releaseDate": "2025-01-01",
+      "website": "https://arxiv.org/abs/2501.01275",
+      "summary": "Data-driven Kalman filtering for 3D MOT; ranked #1 on the KITTI MOT benchmark."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "ReferGPT: Towards Zero-Shot Referring Multi-Object Tracking",
+      "publisher": "IEEE/CVF CVPR Workshops",
+      "releaseDate": "2025-06-01",
+      "website": "https://arxiv.org/pdf/2504.09195",
+      "summary": "Zero-shot referring MOT with multi-modal large language models."
+    },
+    {
+      "name": "ChronoFusion: Spatio-Temporal Super-Resolution based on Graph VAEs and Gated Fusion",
+      "publisher": "EUVIP",
+      "releaseDate": "2025-09-01",
+      "website": "https://doi.org/10.1109/EUVIP66349.2025.11238693",
+      "summary": "Spatio-temporal super-resolution with graph VAEs and gated fusion."
+    },
+    {
+      "name": "LAM3D: Leveraging Attention for Monocular 3D Object Detection",
+      "publisher": "IEEE MMSP",
+      "releaseDate": "2024-10-02",
+      "website": "",
+      "summary": "Attention mechanisms for monocular 3D object detection."
+    },
+    {
+      "name": "Monokalman: Monocular Vehicle Pose Estimation with Kalman Filter-Based Temporal Consistency",
+      "publisher": "IEEE MDM",
+      "releaseDate": "2024-06-01",
+      "website": "",
+      "summary": "Kalman-based temporal consistency for monocular pose estimation."
+    },
+    {
+      "name": "DeepKalPose: An Enhanced Deep-Learning Kalman Filter for Temporally Consistent Monocular Vehicle Pose Estimation",
+      "publisher": "Electronics Letters",
+      "releaseDate": "2024-01-01",
+      "website": "https://arxiv.org/pdf/2404.16558",
+      "summary": "Deep-learning Kalman filter for temporally consistent pose estimation."
     }
   ],
   "presentations": [

@@ -16,7 +16,11 @@ redirect_from:
 
 Summary
 ======
-PhD candidate at ETRO (VUB) focused on computer vision and AI for autonomous driving and drone navigation, with expertise in detection, multi-object tracking, and VLMs.
+PhD candidate at ETRO (VUB) and imec, specialized in robotics, physical AI, and computer vision for autonomous systems. Currently technical lead on drone localization and navigation in a European Defence Fund (EDF) research project (ORIGAMI), and working on multi-agent motion forecasting using flow-based generative AI. Experienced in deploying real-time perception on embedded platforms (Jetson, TensorRT, C++).
+
+Research interests
+======
+Perception for autonomous systems, world models for perception and navigation, localization in 3D environments, vision-language-action (VLA) models for robotics.
 
 Personal data
 ======
@@ -30,13 +34,22 @@ Personal data
 
 Education
 ======
-* 2025–2027 (ongoing): Advanced Master in Industrial and Technological Management — Solvay Brussels School
-* 2023–Present: PhD in Engineering Sciences (Artificial Intelligence & Computer Vision) — Department of Electronics and Informatics (ETRO), Vrije Universiteit Brussel (VUB)
+* 2023–Present: PhD in Engineering Sciences (AI, Computer Vision & Robotics) — Department of Electronics and Informatics (ETRO), Vrije Universiteit Brussel (VUB)
+* 2026: ICVSS International Computer Vision Summer School — "Computer Vision for Spatial and Physical Intelligence" (Sicily, Italy)
+* 2025–Present: Advanced Master in Industrial and Technological Management — Solvay Brussels School
 * 2020–2023: Master Electrical Engineer (Information Technology Systems option) — Bruface Faculty of Engineering (ULB/VUB)
 * 2017–2020: Bachelor Engineer — Bruface Faculty of Engineering (ULB/VUB)
 
 Work experience
 ======
+* Technical Lead, Robotics & Perception Researcher — IMEC & VUB, ORIGAMI (European Defence Fund project) (Jan 2026–Present)
+  * Technical lead for drone autonomy: architected and integrated the full drone platform (hardware, sensing, and autonomy software)
+  * Sensor fusion and localization in 3D environments; developing world-model-based methods for autonomous navigation
+
+* Computer Vision Researcher — MACQ Mobility (research project) (Jan 2023–Jan 2026)
+  * Detection, 3D multi-object tracking, scene understanding, and motion forecasting for autonomous vehicles using generative AI
+  * Achieved #1 on the KITTI MOT and Waymo motion forecasting benchmarks
+
 * Founder — Mappx (Aug 2025–Present)
   * Launched Mappx mobile app in Aug 2025
   * Developed full-stack Flutter frontend and FastAPI backend, integrating location-based social sharing with maps and photos
@@ -58,8 +71,11 @@ Languages
 
 Skills
 ======
-* Programming: Python, Flutter, FastAPI, PyTorch, C++, CUDA, TensorRT
-* Tools/Platforms: VS Code, Azure Cloud Services, Docker, Firebase, GitHub CI/CD
+* Programming: Python, C++, CUDA, PyTorch, TensorRT, ONNX, FastAPI, Flutter
+* Robotics: ROS 2, SLAM, localization, motion planning, navigation, sensor fusion
+* ML / Perception: detection, instance segmentation, monocular 3D, 2D/3D multi-object tracking, Kalman filtering, temporal consistency
+* Vision-language & GenAI: grounding / referring tracking, multimodal reasoning, generative motion forecasting
+* Tools/Platforms: Jetson, Docker, Azure Cloud Services, Firebase, GitHub CI/CD
 * Soft skills: Team spirit, ownership/responsibility, comfort zone growth, adaptability
 
 Publications
@@ -122,7 +138,7 @@ Talks
   
 Teaching
 ======
-* Teaching Assistant (2.5 years) — Machine Learning and Big Data Processing, Vrije Universiteit Brussel (VUB)
+* Teaching Assistant (2.5 years, 2022–2025) — Machine Learning and Big Data Processing, Vrije Universiteit Brussel (VUB)
   
 Supervision
 ======

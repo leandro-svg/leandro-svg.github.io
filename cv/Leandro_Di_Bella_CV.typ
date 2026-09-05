@@ -198,13 +198,13 @@
 // ------------------ CONTENT ------------------
 #section("Summary")
 #text()[
-  PhD candidate looking for a full-time opportunity. Specialized in robotics, physical AI, and computer vision for autonomous systems, with expertise in perception, detection, multi-object tracking, and vision-language models (VLMs). Currently technical lead on drone localization and navigation within the ORIGAMI (EDF) project, and working on multi-agent motion forecasting using flow-based generative AI. Experienced in deploying real-time perception on embedded platforms (Jetson, TensorRT, #box[C++]).
+  PhD candidate looking for a full-time opportunity. Specialized in robotics, physical AI, and computer vision for autonomous systems, with expertise in perception, detection, multi-object tracking, and vision-language models (VLMs). Currently technical lead on drone localization and navigation in a European Defence Fund (EDF) research project, and working on multi-agent motion forecasting using flow-based generative AI. Experienced in deploying real-time perception on embedded platforms (Jetson, TensorRT, #box[C++]).
 ]
 
 #section("Experience")
 
 #exp_compact(
-  "IMEC & VUB (ORIGAMI, EDF project)",
+  "IMEC & VUB (ORIGAMI, European Defence Fund project)",
   "Technical Lead, Robotics & Perception Researcher",
   "Brussels, Belgium",
   "Jan. 2026 – Present",
